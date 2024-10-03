@@ -55,6 +55,9 @@ function Login() {
         onSubmit={handleSubmit}
         style={formContainer}
       >
+        <p>
+          for your ref - username : admin <br /> password : password123
+        </p>
         <h1 className={styles.formTitle}>Login</h1>
         <label htmlFor="username">
           Username
@@ -81,7 +84,6 @@ function Login() {
             Login
           </Button>
         </div>
-        {/* <button type="submit">Login</button> */}
       </form>
     </div>
   );
